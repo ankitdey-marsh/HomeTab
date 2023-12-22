@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* background-image: url("C:/Coding/Own/Test/img1.jpg"); */
+}
+body{
+    background-image: url("C:/Coding/Own/Test/img1.jpg");
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome_text{
+  top:1.4rem;
+  font-size: 5rem;
+  font-family:"Roboto Condensed";
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  font-stretch: extra-expanded;
+  position: absolute;
+  left:5rem;
+  backdrop-filter:opacity(0);
+}
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    height:140vh;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+#box{
+    display:flex;
+    flex-wrap:wrap;
+    /* height:100vh; */
+    width:75vw;
+    align-self:flex-end;
+    background-color:rgb(238, 242, 230,0.3);
+    justify-content:space-between;
+    padding:2.5rem;
+    text-align:center;
+    line-height:2.3;
+    border-radius:30px;
+    backdrop-filter:blur(5px);
+}
+.flex-footer{
+    display:flex;
+    background-color:rgb(12, 10, 15,0.8);
+    opacity: 0.95;
+    height:15vh;
+    flex-wrap:wrap;
+    text-align:center;
+    color:white;    
+    backdrop-filter:blur(5px);
+}
+/* .empty-footer{
+    background-color:black;
+    height:17vh;
+    width:100vw;
+    align-self:flex-start;
+} */
+.footer{
+    background-color:rgb(12, 10, 15);
+    opacity:0.2;
+    width:100vw;
+    height:15vh;
+    align-self:flex-end;
+    padding-top:3.2vh;
+    background-image: url("C:/Coding/Own/Test/img1.jpg"); 
+    backdrop-filter:blur(5px);  
+}
+.sites{
+    height:12rem;
+    width:12rem;
+    background-color:#352F44;
+    justify-content:space-around;
+    backdrop-filter:blur(5px);
+    margin: 2rem;
+    border-radius:25px;
+    transition-duration:0.4s;
+    transition-timing-function:ease;
+    color:grey;
+    text-decoration:none;
+    overflow:hidden;
+    background-image: url("C:/Coding/Own/Test/img1.jpg");
+    /* background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.sites:hover,.sites:focus{
+    border:2px solid #9ECE6A;
+    opacity: 0.80 ;
+    transform:scale(1.1);
+    /* transition */
+    color:#9ECE6A;
+    background-color:rgb(53, 47, 68,0.96);
+    
+}
+.icons{
+    font-size:5rem;   
+}
+.text_decor{
+    margin:0.7rem;
+}
+@media screen and (max-width:720px) and (max-height:1080px){
+    .flex-container{
+        height: 160vh;
+    }
+    .sites{
+        height: 8.2rem;
+        width: 8.2rem;
+        line-height: 1.96;
+        justify-content: space-evenly;
+        margin:1.5rem;
+    }
+    .icons{
+        font-size: 4rem;
+    }
+}
