@@ -12,4 +12,12 @@ Simply set the `index.html` file as the home tab from the 'Settings' of your bro
 The image used can be easily changed by changing the link used in `Line 9` of `Styles.css` file. The icons used in the hometab can be changed by customizing the `app.js`. To add more tiles, simply add the icons, and link of the website. Removing them is just as easy, simply remove the code of the tile that is not required.
 
 ## Inspiration 
-https://github.com/debjit-mandal/startpage
+Certainly! Here's a refined version:
+
+---
+
+Huge props to this individual for their inspirational repository:
+
+[Startpage by imreyesjorge](https://github.com/imreyesjorge/root-startpage)
+
+This project serves as a remarkable source of inspiration.
