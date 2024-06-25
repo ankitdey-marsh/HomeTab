@@ -22,7 +22,7 @@ const sites_tab=[
     {
         Name:"Github",
         icon:"ri-github-fill",
-        link:"https://www.github.com"
+        link:"https://www.github.com/ankitdey-marsh"
     },
     {
         Name:"Youtube Music",
